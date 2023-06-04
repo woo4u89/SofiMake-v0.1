@@ -19,7 +19,7 @@ public:
     readFile.open(filename);
     if (readFile.is_open()) 
     {
-        readFile.ignore( std::numeric_limits<std::streamsize>::max(), '\n' );
+        readFile.ignore( std::numeric_limits<std::streamsize>::max(), '\n' ); //ignore first line of the file
         std::wstring line;
         while (std::getline(readFile, line)) 
         {
