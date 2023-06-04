@@ -23,7 +23,7 @@ Execute the program - a TXT file will be created with the formatting of the modu
 ULS load combinations start from LC 1001, SLS load combinations start from LC 1301.
 
 # Example of a generated Sofiload load case:
-LC 1003 TITL 'STA1*1.10  STA2*1.30  STA3*1.20  EKSP1*1.20' TYPE (D)
+LC  1003  TITL  'STA1*1.10   STA2*1.30   STA3*1.20   EKSP1*1.20'  TYPE  (D)
 
 COPY 1 FACT 1.1
 
