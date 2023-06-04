@@ -1,7 +1,7 @@
 /**********************************************
  * SofiMake - import load combinations from
  * Autodesk Robot to Sofistik Teddy (Sofiload)
- *         Created on: July 04, 2023
+ *         Created on: June 04, 2023
  *          Author: Maciej Zieliński
  **********************************************/
 
