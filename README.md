@@ -6,6 +6,7 @@ The load combinations should be exported with their labels in the following form
 - SLS: SGU/ 226;STA1*1.00 + STA2*1.00 + STA3*1.00 + EKSP6*1.00 + EKSP7*1.00 + EKSP8*1.00
 
 Dead load labels: STA1, STA2, ...
+
 Live load labels (including wind, snow, etc.): EKSP1, EKSP2, ...
 
 Required filename of the Autodesk Robot LC export: komb_robot.csv. 
