@@ -10,12 +10,14 @@ Dead load labels: STA1, STA2, ...
 Live load labels (including wind, snow, etc.): EKSP1, EKSP2, ...
 
 Required filename of the Autodesk Robot LC export: komb_robot.csv. 
+
 The file should be encoded to UTF-8! Using the standard Windows UTF-16 LE encoding will result in failure.
 
 After compiling place the CSV file in the same directory as the exe file. 
 
 Usage: 
 After program execution a TXT file will be created with the formatting of the module Sofiload.
+
 ULS load combinations start from LC 1001, SLS load combinations start from LC 1301.
 
 Example of a generated Sofiload load case:
