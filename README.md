@@ -24,7 +24,11 @@ ULS load combinations start from LC 1001, SLS load combinations start from LC 13
 
 # Example of a generated Sofiload load case:
 LC 1003 TITL 'STA1*1.10  STA2*1.30  STA3*1.20  EKSP1*1.20' TYPE (D)
+
 COPY 1 FACT 1.1
+
 COPY 2 FACT 1.3
+
 COPY 3 FACT 1.2
+
 COPY 4 FACT 1.2
