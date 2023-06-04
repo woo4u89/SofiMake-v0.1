@@ -57,5 +57,5 @@ void Combination::parseInput(std::string& line)
     limitstate = (line.substr(0,3) == "SGN") ? LimitState::ULS : LimitState::SLS;  
 
     int cut = static_cast<int>(line.find(SemicolonDelimeter)) + 1;
-    line.erase(0, cut); //cuts string to the left of the semicolon ; (including the semicolon)
+    line.erase(0, cut); 
 }
