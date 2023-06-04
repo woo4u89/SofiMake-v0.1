@@ -1,5 +1,5 @@
 ## SofiMake-v0.1
-# A tool that generates Sofistik FEA Sofiload module load combinations based on Autodesk Robot LC export.
+# A tool that generates Sofistik FEA load combinations based on Autodesk Robot LC export.
 
 The load combinations should be exported with their labels in the following format:
 - ULS: SGN/ 9;STA1*1.10 + STA2*1.30 + STA3*1.20 + EKSP1*1.20 + EKSP2*1.20 + EKSP3*1.20
@@ -22,7 +22,7 @@ Execute the program - a TXT file will be created with the formatting of the modu
 
 ULS load combinations start from LC 1001, SLS load combinations start from LC 1301.
 
-# Example of a generated Sofiload load case:
+# Example of a generated Sofiload loadcase:
 LC  1003  TITL  'STA1*1.10   STA2*1.30   STA3*1.20   EKSP1*1.20'  TYPE  (D)
 
 COPY 1 FACT 1.1
